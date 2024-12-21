@@ -1,2 +1,7 @@
-package com.semicolon.easyaccount.Exceptions;public class UserNotFoundExceptions {
+package com.semicolon.easyaccount.Exceptions;
+
+public class UserNotFoundExceptions extends Exception {
+    public UserNotFoundExceptions(String message) {
+        super(message);
+    }
 }

@@ -1,2 +1,8 @@
-package com.semicolon.easyaccount.dto.response;public enum TransactionType {
+package com.semicolon.easyaccount.dto.response;
+
+public enum TransactionType {
+    DEPOSIT,
+    WITHDRAWAL,
+    TRANSFER,
+
 }

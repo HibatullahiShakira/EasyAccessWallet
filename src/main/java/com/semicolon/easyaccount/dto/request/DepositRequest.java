@@ -11,4 +11,6 @@ public class DepositRequest {
     private Long customerId;
     private String description;
     private BigDecimal amount;
+    private String receiverAccountNumber;
+
 }

@@ -7,4 +7,7 @@ import lombok.Setter;
 @Getter
 public class DepositResponse {
     private String message;
+    private String status;
+    private Long transactionId;
+    private String amount;
 }
